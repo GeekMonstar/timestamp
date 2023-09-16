@@ -4,7 +4,7 @@ const minutesLayout = document.querySelector(".minutes");
 const secondsLayout = document.querySelector(".seconds");
 const stampInTheDay = 86400;
 let angle = 36;
-let date = new Date("2023-08-14");
+let date = new Date("2024-08-14");
 let targetTimestamp = date.getTime();
 update();
 setInterval(() => {
