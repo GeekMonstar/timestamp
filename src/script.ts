@@ -4,7 +4,7 @@ const minutesLayout = document.querySelector(".minutes")!;
 const secondsLayout = document.querySelector(".seconds")!;
 const dateLayout = document.querySelector(".date");
 const stampInTheDay = 86400;
-let angle = 36;
+let angle = Math.random() * 36;
 const year = new Date().getFullYear();
 console.log(new Date().getFullYear());
 let date = null;
